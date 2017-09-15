@@ -17,18 +17,15 @@
 <div class="w3-row-padding w3-section">
   <div class="w3-quarter">
       <div class="w3-container">
-        <form action="/action_page.php">
-          Original Model: <input type="file" name="orgFile"><br>
-          <input type="submit" value="Submit">
-        </form>
-        <p>Choose and submit the original model!</p>
+        Original Model:
+        <input id="orgFile" type="file" name="orgFile"><br>
+        <output id="orgFileList"></output>
 
-        <form action="/action_page.php">
-          Comparison List: <input type="file" name="newFiles" multiple><br>
-          <input type="submit" value="Submit">
-        </form>
-        <p>Choose and submit the list of model versions that should be compared to the origanal one!</p>
+        Comparison List:
+        <input id="files" type="file" name="newFiles" multiple><br>
+        <output id="list"></output>
       </div>
+      
       <div class="w3-container">
         <input id="compareButton" type="button" class="w3-button w3-teal" value="Compare!">
       </div>
