@@ -17,21 +17,17 @@
 <div class="w3-row-padding w3-section">
   <div class="w3-quarter">
       <div class="w3-container">
-        Original Model:
-        <input id="orgFile" type="file" name="orgFile"><br>
-        <output id="orgFileList"></output>
-
         Comparison List:
         <input id="files" type="file" name="newFiles" multiple><br>
         <output id="list"></output>
       </div>
-      
+
       <div class="w3-container">
         <input id="compareButton" type="button" class="w3-button w3-teal" value="Compare!">
       </div>
   </div>
 
-  <div class="w3-threequarter">
+  <div id="content" class="w3-threequarter">
       <div class="w3-container">
         <p>Choose and submit the origanl file!</p>
       </div>
